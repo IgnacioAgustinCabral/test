@@ -22,6 +22,7 @@ public class ControladorLogin {
 	// applicationContext.xml
 	private ServicioLogin servicioLogin;
 
+
 	@Autowired
 	public ControladorLogin(ServicioLogin servicioLogin){
 		this.servicioLogin = servicioLogin;
